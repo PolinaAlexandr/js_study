@@ -5,4 +5,6 @@ $(document).ready(function () {
         // $('#myForm').submit();
 //        console.log(menu)
     });
+
+    $('#test_link').on('click', window.menuICode._onTestLinkClick.bind(window.menuICode));
 });
